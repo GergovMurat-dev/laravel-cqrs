@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "19592005d7bcbf70f2dad098ef1b2cb8",
     "packages": [
         {
             "name": "brick/math",
@@ -5405,6 +5405,52 @@
                 }
             ],
             "time": "2024-06-27T13:23:14+00:00"
+        },
+        {
+            "name": "thumbrise/toolkit",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thumbrise/l-toolkit.git",
+                "reference": "36c64e9b05699e38d2a3bc6b9e2222d0617e2dd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thumbrise/l-toolkit/zipball/36c64e9b05699e38d2a3bc6b9e2222d0617e2dd2",
+                "reference": "36c64e9b05699e38d2a3bc6b9e2222d0617e2dd2",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=10.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0 || ^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Helpers/helpers.php"
+                ],
+                "psr-4": {
+                    "Thumbrise\\Toolkit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruslan Kokoev",
+                    "email": "ruslan.kokoev.1999@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/thumbrise/l-toolkit/issues",
+                "source": "https://github.com/thumbrise/l-toolkit/tree/1.2.1"
+            },
+            "time": "2024-04-20T22:54:16+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
